@@ -1,0 +1,27 @@
+.btn-wrap {
+  display: flex;
+  align-items: center;
+
+  .btn-main {
+    background-color: var(--orange);
+    font-size: 14px;
+    height: 46px;
+    padding: 0 2rem;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'UTMb';
+
+    &:hover {
+      background-color: black;
+      color: var(--orange);
+      border: 1px solid var(--orange);
+    }
+  }
+}

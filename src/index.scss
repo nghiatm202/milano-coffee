@@ -1,0 +1,57 @@
+:root {
+  --orange: #fbae17;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: 'UTM';
+  color: black;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'UTM';
+  src: local('UTM'), url('./assets/fonts/UTMAvo.woff2') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'UTMb';
+  src: local('UTMb'), url('./assets/fonts/UTMAvoBold.woff2') format('truetype');
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
